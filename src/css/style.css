@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Nunito+Sans:ital,wght@0,300;1,300&family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.navbar{
+    background:black;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6);
+    padding: 20px 20px;
+    border-radius: 15px;
+    
+}
+#navbarSupportedContent a{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #47464552;
+    transition: 0.3s ease;
+}
+#navbarSupportedContent  a:hover, #navbarSupportedContent .active, .navbar-brand{
+    color:black;
+}
+
+h2{
+    color: white;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+form input{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 10px;
+    border: 1px solid #e1e1e1;
+}
+
+.btn{
+    background-color: #9b8252;
+    border: none;
+    height: 40px;
+}
+
+.show-mov{
+    margin-top: 7px;
+    margin-bottom: 5px;
+
+}
+.show-mov img{
+    border-radius: 25px;
+}
+.show-mov h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.show-mov h4 a{
+    color:white;
+    cursor: pointer;
+}
+.show-mov p{
+    margin-top: 5px;
+    color: white;
+}
+
+.movie-details{
+    /* border: solid; */
+    padding: 30px 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+.movie-details h3{
+    margin-top: 20px;
+    color: #130e06;
+}
+.movie-details h4{
+    margin-top: 10px;
+    color: #130e06;
+}
+.cast-details h4{
+    margin-top: 40px;
+    color: #130e06;
+}
+.cast-details h6{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.cast-details img{
+    border-radius: 10px;
+}
+.cast-data{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
